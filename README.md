@@ -5,7 +5,7 @@ This repository contains a project on knowledge distillation for English–Turki
 This project was done as a course project for the Natural Language Processing Course (COMP 442) at Koç University
 
 
-# COMP442Project
+# COMP 442 Project
 
 ### How to replicate (after any necessary installs)
 - First we need to finetune/train mbart50 model. I used the methods mentions in (https://github.com/alisafaya/mukayese) to clone transformers (https://github.com/huggingface/transformers) and train mbart50 model for 5 epochs.
