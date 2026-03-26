@@ -1,3 +1,10 @@
+# Neural Machine Translation TR->EN & EN->TR, using Knowledge Distillation
+
+This repository contains a project on knowledge distillation for English–Turkish and Turkish–English neural machine translation. I used mBART50 as a teacher model to generate distilled training targets from WMT16 EN-TR, then trained a smaller transformer on the modified dataset and compared it against a vanilla baseline on the original test set using BLEU metrics. The distilled approach produced its strongest gains in EN→TR, with smaller improvements in TR→EN.
+
+This project was done as a course project for the Natural Language Processing Course (COMP 442) at Koç University
+
+
 # COMP442Project
 
 ### How to replicate (after any necessary installs)
